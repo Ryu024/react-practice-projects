@@ -13,12 +13,12 @@ function App() {
   function stepsIncrement() {
     if (step >= 1 && step <3) {
   
-      stepsState(step + 1);
+      stepsState((e) => e+1);
     }
   }
   function stepsDecrement() {
     if (step > 1 && step<= 3) {
-      stepsState(step - 1);
+      stepsState((e) => e - 1);
     }
   }
   function Open() {
