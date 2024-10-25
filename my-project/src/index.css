@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .primary-btn {
+        @apply bg-primary text-white px-4 font-bold py-2 rounded-full
+    }
+    .secndry-btn {
+        @apply bg-gray-200 text-black px-4 font-bold py-2 rounded-full
+
+    }
+    
+}
+
+@layer utilities {
+    .img-shadow {
+       filter : drop-shadow(5px , 5px , 5px rgba(0, 0, 0 , 0.4)) 
+    }
+}
